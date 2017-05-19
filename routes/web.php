@@ -26,3 +26,11 @@ Route::get('/courses/collegeanduniversities', function () {
 Route::get('/courses/corporateandprivate', function () {
 	return view('pages.corporateandprivate');
 });
+
+Route::get('/schedule', function () {
+	return view('pages.schedule');
+});
+
+Route::get('/about_us', function () {
+	return view('pages.aboutus');
+});

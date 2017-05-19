@@ -34,7 +34,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a href="#">
-                                <i class="material-icons">home</i> Our Services
+                                <i class="material-icons">home</i> Home
                             </a>
                         </li>
 
@@ -63,12 +63,12 @@
                         </li>
 
                         <li>
-                            <a href="#">
+                            <a href="/schedule">
                                 <i class="material-icons">date_range</i> Training Schedule
                             </a>
                         </li>
 
-                        <li class="dropdown">
+                       {{--  <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="material-icons">work</i> Projects &amp; Products
                                 <b class="caret"></b>
@@ -85,10 +85,10 @@
                                     </a>
                                 </li>
                             </ul>
-                        </li>
+                        </li> --}}
 
                         <li>
-                            <a href="#">
+                            <a href="/about_us">
                                 <i class="material-icons">business</i> About Us
                             </a>
                         </li>

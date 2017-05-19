@@ -1,0 +1,186 @@
+@extends('layouts.welcome')
+@section('content')
+		<div class="page-header header-filter" style="height: 20%">
+        </div>
+
+		<div class="main main-raised">
+            <div class="container">
+                <div class="padding-around">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <h2 class="title">About Us</h2>
+                            <h5 class="description">Our powerful members.</h5>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                    	<div class="col-md-4">
+                    		<div class="card card-profile card-rotate">
+									<div class="rotating-card-container">
+										<div class="card-image">
+											<div class="front">
+												<img class="img" src="/user/card-profile7.jpg">
+											<div class="colored-shadow" style="background-image: url(&quot;/user/card-profile7.jpg&quot;); opacity: 1;"></div></div>
+
+											<div class="back back-background" style="height: 220px; width: 330px; background-image: url(&quot;/user/card-profile7.jpg&quot;);">
+												<div class="card-content">
+													<h5 class="card-title">
+														Get in touch
+													</h5>
+													<p class="card-description">
+														Stay in contact with Nazmi and do some business together.
+													</p>
+													<div class="footer text-center">
+														<a href="#pablo" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
+														<a href="#pablo" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="card-content">
+										<h4 class="card-title">Nazmi Asri</h4>
+										<h6 class="category text-gray">CEO / Founder</h6>
+										<p class="card-description">
+											"I love I***I"
+										</p>
+										<div class="footer">
+											<a href="#pablo" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
+											<a href="#pablo" class="btn btn-just-icon btn-linkedin btn-simple"><i class="fa fa-linkedin"></i></a>
+											<a href="#pablo" class="btn btn-just-icon btn-dribbble btn-simple"><i class="fa fa-dribbble"></i></a>
+										</div>
+									</div>
+								</div>
+                    	</div>
+
+						<div class="col-md-4">
+                    		<div class="card card-profile card-rotate">
+									<div class="rotating-card-container">
+										<div class="card-image">
+											<div class="front">
+												<img class="img" src="/user/card-profile7.jpg">
+											<div class="colored-shadow" style="background-image: url(&quot;/user/card-profile7.jpg&quot;); opacity: 1;"></div></div>
+
+											<div class="back back-background" style="height: 220px; width: 330px; background-image: url(&quot;/user/card-profile7.jpg&quot;);">
+												<div class="card-content">
+													<h5 class="card-title">
+														Get in touch
+													</h5>
+													<p class="card-description">
+														Stay in contact with Nexxa and do some business together.
+													</p>
+													<div class="footer text-center">
+														<a href="#pablo" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
+														<a href="#pablo" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="card-content">
+										<h4 class="card-title">Firdaus Neonexxa</h4>
+										<h6 class="category text-gray">CTO / Co-Founder</h6>
+										<p class="card-description">
+											"Nothing beats the sound of keyboard"
+										</p>
+										<div class="footer">
+											<a href="#pablo" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
+											<a href="#pablo" class="btn btn-just-icon btn-linkedin btn-simple"><i class="fa fa-linkedin"></i></a>
+											<a href="#pablo" class="btn btn-just-icon btn-dribbble btn-simple"><i class="fa fa-dribbble"></i></a>
+										</div>
+									</div>
+								</div>
+                    	</div>
+
+                    	<div class="col-md-4">
+                    		<div class="card card-profile card-rotate">
+									<div class="rotating-card-container">
+										<div class="card-image">
+											<div class="front">
+												<img class="img" src="/user/card-profile7.jpg">
+											<div class="colored-shadow" style="background-image: url(&quot;/user/card-profile7.jpg&quot;); opacity: 1;"></div></div>
+
+											<div class="back back-background" style="height: 220px; width: 330px; background-image: url(&quot;/user/card-profile7.jpg&quot;);">
+												<div class="card-content">
+													<h5 class="card-title">
+														Get in touch
+													</h5>
+													<p class="card-description">
+														Stay in contact with Syaza and do some business together.
+													</p>
+													<div class="footer text-center">
+														<a href="#pablo" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
+														<a href="#pablo" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="card-content">
+										<h4 class="card-title">Syaza Hanapi</h4>
+										<h6 class="category text-gray">CFO / Management</h6>
+										<p class="card-description">
+											"im serious, dont play with me"
+										</p>
+										<div class="footer">
+											<a href="#pablo" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
+											<a href="#pablo" class="btn btn-just-icon btn-linkedin btn-simple"><i class="fa fa-linkedin"></i></a>
+											<a href="#pablo" class="btn btn-just-icon btn-dribbble btn-simple"><i class="fa fa-dribbble"></i></a>
+										</div>
+									</div>
+								</div>
+                    	</div>
+
+                    	<div class="col-md-4">
+                    		<div class="card card-profile card-rotate">
+									<div class="rotating-card-container">
+										<div class="card-image">
+											<div class="front">
+												<img class="img" src="/user/card-profile7.jpg">
+											<div class="colored-shadow" style="background-image: url(&quot;/user/card-profile7.jpg&quot;); opacity: 1;"></div></div>
+
+											<div class="back back-background" style="height: 220px; width: 330px; background-image: url(&quot;/user/card-profile7.jpg&quot;);">
+												<div class="card-content">
+													<h5 class="card-title">
+														Get in touch
+													</h5>
+													<p class="card-description">
+														Stay in contact with Shazlyn and do some business together.
+													</p>
+													<div class="footer text-center">
+														<a href="#pablo" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
+														<a href="#pablo" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="card-content">
+										<h4 class="card-title">Shazlyn Aszemi</h4>
+										<h6 class="category text-gray">HR / Management</h6>
+										<p class="card-description">
+											"I love you like Kanye loves Kanye"
+										</p>
+										<div class="footer">
+											<a href="#pablo" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
+											<a href="#pablo" class="btn btn-just-icon btn-linkedin btn-simple"><i class="fa fa-linkedin"></i></a>
+											<a href="#pablo" class="btn btn-just-icon btn-dribbble btn-simple"><i class="fa fa-dribbble"></i></a>
+										</div>
+									</div>
+								</div>
+                    	</div>
+                    </div>
+
+				</div>
+			</div>
+		</div>
+
+@endsection
