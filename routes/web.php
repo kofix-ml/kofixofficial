@@ -15,7 +15,6 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
-
 # Train & Courses
 Route::get('/courses/teensandkids', function () {
 	return view('pages.teensandkids');
@@ -31,6 +30,8 @@ Route::get('/schedule', function () {
 	return view('pages.schedule');
 });
 
-Route::get('/about_us', function () {
-	return view('pages.aboutus');
+Route::get('/about_us','SimpleController@aboutus');
+
+Route::get('/contact_us', function () {
+	return view('pages.contactus');
 });

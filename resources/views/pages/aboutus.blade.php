@@ -178,7 +178,36 @@
 								</div>
                     	</div>
                     </div>
-
+					<br>
+					<div class="row">
+						@foreach($tweets as $tweet)
+						
+						<div class="col-md-4">
+							<div class="card">
+	    							<div class="card-content content-info">
+	    								<h5 class="category-social">
+	    									<i class="fa fa-twitter"></i> Twitter
+	    								</h5>
+	    								<h4 class="card-title">
+	    									<a href="#pablo">"{{str_limit($tweet['text'], 50)}}"</a>
+	    								</h4>
+	    								<div class="footer">
+	    	                                <div class="author">
+	    	                                    <a href="#pablo">
+	    	                                       <img src="https://secure.gravatar.com/avatar/22c0273af57a7c69239303b0cdc0a887?s=64" alt="..." class="avatar img-raised">
+	    	                                       <span>{{$tweet['user']['screen_name']}}</span>
+	    	                                    </a>
+	    	                                </div>
+	    	                               	<div class="stats">
+	    	                                    <i class="material-icons">favorite</i> 	{{$tweet['favorite_count']}}·
+	    										<i class="material-icons">share</i> 	{{$tweet['retweet_count']}} 
+	    	                                </div>
+	    	                            </div>
+	    							</div>
+	    						</div>
+						</div>
+						@endforeach
+					</div>
 				</div>
 			</div>
 		</div>

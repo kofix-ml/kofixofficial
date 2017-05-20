@@ -33,7 +33,7 @@
                 <div class="collapse navbar-collapse" id="navigation-example">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#">
+                            <a href="/">
                                 <i class="material-icons">home</i> Home
                             </a>
                         </li>
@@ -94,7 +94,7 @@
                         </li>
 
                         <li>
-                            <a href="#">
+                            <a href="/contact_us">
                                 <i class="material-icons">contacts</i> Contact Us
                             </a>
                         </li>

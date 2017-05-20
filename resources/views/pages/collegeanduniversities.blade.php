@@ -10,7 +10,7 @@
 
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 text-center">
-                            <h2 class="title">Training & Courses</h2>
+                            <h2 class="title"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Training & Courses</h2>
                             <h5 class="description">Courses listed below is based on demands and supply we have.</h5>
                         </div>
                     </div>
