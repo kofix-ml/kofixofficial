@@ -19,10 +19,10 @@
 									<div class="rotating-card-container">
 										<div class="card-image">
 											<div class="front">
-												<img class="img" src="/user/card-profile7.jpg">
-											<div class="colored-shadow" style="background-image: url(&quot;/user/card-profile7.jpg&quot;); opacity: 1;"></div></div>
+												<img class="img" src="/user/nazminazmiedit.jpg">
+											<div class="colored-shadow" style="background-image: url(&quot;/user/nazminazmiedit.jpg&quot;); opacity: 1;"></div></div>
 
-											<div class="back back-background" style="height: 220px; width: 330px; background-image: url(&quot;/user/card-profile7.jpg&quot;);">
+											<div class="back back-background" style="height: 220px; width: 330px; background-image: url(&quot;/user/nazminazmiedit.jpg&quot;);">
 												<div class="card-content">
 													<h5 class="card-title">
 														Get in touch
@@ -60,10 +60,10 @@
 									<div class="rotating-card-container">
 										<div class="card-image">
 											<div class="front">
-												<img class="img" src="/user/card-profile7.jpg">
-											<div class="colored-shadow" style="background-image: url(&quot;/user/card-profile7.jpg&quot;); opacity: 1;"></div></div>
+												<img class="img" src="/user/nexxanazmiedit.jpg">
+											<div class="colored-shadow" style="background-image: url(&quot;/user/nexxanazmiedit.jpg&quot;); opacity: 1;"></div></div>
 
-											<div class="back back-background" style="height: 220px; width: 330px; background-image: url(&quot;/user/card-profile7.jpg&quot;);">
+											<div class="back back-background" style="height: 220px; width: 330px; background-image: url(&quot;/user/nexxanazmiedit.jpg&quot;);">
 												<div class="card-content">
 													<h5 class="card-title">
 														Get in touch
@@ -101,10 +101,10 @@
 									<div class="rotating-card-container">
 										<div class="card-image">
 											<div class="front">
-												<img class="img" src="/user/card-profile7.jpg">
-											<div class="colored-shadow" style="background-image: url(&quot;/user/card-profile7.jpg&quot;); opacity: 1;"></div></div>
+												<img class="img" src="/user/syazanazmiedit.jpg">
+											<div class="colored-shadow" style="background-image: url(&quot;/user/syazanazmiedit.jpg&quot;); opacity: 1;"></div></div>
 
-											<div class="back back-background" style="height: 220px; width: 330px; background-image: url(&quot;/user/card-profile7.jpg&quot;);">
+											<div class="back back-background" style="height: 220px; width: 330px; background-image: url(&quot;/user/syazanazmiedit.jpg&quot;);">
 												<div class="card-content">
 													<h5 class="card-title">
 														Get in touch
@@ -142,10 +142,10 @@
 									<div class="rotating-card-container">
 										<div class="card-image">
 											<div class="front">
-												<img class="img" src="/user/card-profile7.jpg">
-											<div class="colored-shadow" style="background-image: url(&quot;/user/card-profile7.jpg&quot;); opacity: 1;"></div></div>
+												<img class="img" src="/user/shaznazmiedit.jpg">
+											<div class="colored-shadow" style="background-image: url(&quot;/user/shaznazmiedit.jpg&quot;); opacity: 1;"></div></div>
 
-											<div class="back back-background" style="height: 220px; width: 330px; background-image: url(&quot;/user/card-profile7.jpg&quot;);">
+											<div class="back back-background" style="height: 220px; width: 330px; background-image: url(&quot;/user/shaznazmiedit.jpg&quot;);">
 												<div class="card-content">
 													<h5 class="card-title">
 														Get in touch
