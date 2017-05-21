@@ -47,7 +47,7 @@
 											"I love I***I"
 										</p>
 										<div class="footer">
-											<a href="#pablo" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
+											<a href="https://twitter.com/nazmiasri95" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
 											<a href="#pablo" class="btn btn-just-icon btn-linkedin btn-simple"><i class="fa fa-linkedin"></i></a>
 											<a href="#pablo" class="btn btn-just-icon btn-dribbble btn-simple"><i class="fa fa-dribbble"></i></a>
 										</div>
@@ -72,8 +72,8 @@
 														Stay in contact with Nexxa and do some business together.
 													</p>
 													<div class="footer text-center">
-														<a href="#pablo" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
-														<a href="#pablo" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
+														<a href="tel:+60134494290" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
+														<a href="sms://+60134494290?body=Hello%20World!" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
 
 													</div>
 												</div>
@@ -88,7 +88,7 @@
 											"Nothing beats the sound of keyboard"
 										</p>
 										<div class="footer">
-											<a href="#pablo" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
+											<a href="https://twitter.com/firdausneonexxa" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
 											<a href="#pablo" class="btn btn-just-icon btn-linkedin btn-simple"><i class="fa fa-linkedin"></i></a>
 											<a href="#pablo" class="btn btn-just-icon btn-dribbble btn-simple"><i class="fa fa-dribbble"></i></a>
 										</div>
@@ -129,7 +129,7 @@
 											"im serious, dont play with me"
 										</p>
 										<div class="footer">
-											<a href="#pablo" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
+											<a href="https://twitter.com/syazahanapi" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
 											<a href="#pablo" class="btn btn-just-icon btn-linkedin btn-simple"><i class="fa fa-linkedin"></i></a>
 											<a href="#pablo" class="btn btn-just-icon btn-dribbble btn-simple"><i class="fa fa-dribbble"></i></a>
 										</div>
