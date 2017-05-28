@@ -113,8 +113,8 @@
 														Stay in contact with Syaza and do some business together.
 													</p>
 													<div class="footer text-center">
-														<a href="#pablo" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
-														<a href="#pablo" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
+														<a href="tel:+601110091882" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
+														<a href="tel:+601110091882" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
 
 													</div>
 												</div>
@@ -154,8 +154,8 @@
 														Stay in contact with Shazlyn and do some business together.
 													</p>
 													<div class="footer text-center">
-														<a href="#pablo" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
-														<a href="#pablo" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
+														<a href="tel:+60123272356" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
+														<a href="tel:+60123272356" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
 
 													</div>
 												</div>
