@@ -31,8 +31,8 @@
 														Stay in contact with Nazmi and do some business together.
 													</p>
 													<div class="footer text-center">
-														<a href="#pablo" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
-														<a href="#pablo" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
+														<a href="tel:+60173445919" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
+														<a href="sms:+60173445919" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
 
 													</div>
 												</div>
@@ -73,7 +73,7 @@
 													</p>
 													<div class="footer text-center">
 														<a href="tel:+60134494290" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
-														<a href="sms://+60134494290?body=Hello%20World!" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
+														<a href="sms:+60134494290" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
 
 													</div>
 												</div>
@@ -114,7 +114,7 @@
 													</p>
 													<div class="footer text-center">
 														<a href="tel:+601110091882" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
-														<a href="tel:+601110091882" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
+														<a href="sms:+601110091882" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
 
 													</div>
 												</div>
@@ -155,7 +155,7 @@
 													</p>
 													<div class="footer text-center">
 														<a href="tel:+60123272356" class="btn btn-white btn-round btn-fill btn-s"><i class="material-icons">phone</i> Call</a>
-														<a href="tel:+60123272356" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
+														<a href="sms:+60123272356" class="btn btn-white btn-round btn-simple"><i class="material-icons">mode_comment</i> SMS</a>
 
 													</div>
 												</div>
