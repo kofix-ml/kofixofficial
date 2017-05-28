@@ -170,7 +170,7 @@
 											"Failure is success in progress"
 										</p>
 										<div class="footer">
-											<a href="#pablo" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
+											<a href="https://twitter.com/cott_on_candy" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
 											<a href="#pablo" class="btn btn-just-icon btn-linkedin btn-simple"><i class="fa fa-linkedin"></i></a>
 											<a href="#pablo" class="btn btn-just-icon btn-dribbble btn-simple"><i class="fa fa-dribbble"></i></a>
 										</div>
