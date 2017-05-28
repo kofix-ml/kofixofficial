@@ -22,10 +22,10 @@ class SimpleController extends Controller
         $stack = HandlerStack::create();
 
         $middleware = new Oauth1([
-            'consumer_key'    => 'I6q1JNkWJlSfjxjXsl9NAnGeh',
-            'consumer_secret' => 'fgqgZOzSZsgVGqde6bIsACNDRCUffZcgC2hLHbTSY9asKLj6LS',
-            'token'           => '1197219512-Z5Lu3Jge3SmztlisOHrv3ttGlcQxRtljuR4NoEB',
-            'token_secret'    => 'hIrAZaxXmY6S5gawazpGtiZAC1T4IfPyZDnRf11tzbL8T'
+            'consumer_key'    => 'Dnbk0bS6dyy418ouTIuG4GWJb',
+            'consumer_secret' => 'jFtSSraR65oeyW7BPsgmwiOb4wJO2YKSDXaHLeGJwCd6Z3EGwH',
+            'token'           => '831526661266952192-2a4yWwGDokN8hYpxarvwFfCQu2sR9ZB',
+            'token_secret'    => '0XzmLpQbfezxqarmlgb9hvn4onGxpBImNOB4kYnXRze3Q'
         ]);
 
         $stack->push($middleware);
@@ -37,7 +37,7 @@ class SimpleController extends Controller
         ]);
 
         $res = $client->get('statuses/user_timeline.json',['query' => [
-            'screen_name' => 'firdausneonexxa',
+            'screen_name' => 'kofixtech',
             'count' => '9',
         ]]);
 

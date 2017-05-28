@@ -44,7 +44,7 @@
 										<h4 class="card-title">Nazmi Asri</h4>
 										<h6 class="category text-gray">CEO / Founder</h6>
 										<p class="card-description">
-											"I love I***I"
+											"Do your deep learning"
 										</p>
 										<div class="footer">
 											<a href="https://twitter.com/nazmiasri95" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
@@ -126,7 +126,7 @@
 										<h4 class="card-title">Syaza Hanapi</h4>
 										<h6 class="category text-gray">CFO / Management</h6>
 										<p class="card-description">
-											"im serious, dont play with me"
+											"Be the game changer"
 										</p>
 										<div class="footer">
 											<a href="https://twitter.com/syazahanapi" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
