@@ -167,7 +167,7 @@
 										<h4 class="card-title">Shazlyn Aszemi</h4>
 										<h6 class="category text-gray">HR / Management</h6>
 										<p class="card-description">
-											"I love you like Kanye loves Kanye"
+											"Failure is success in progress"
 										</p>
 										<div class="footer">
 											<a href="#pablo" class="btn btn-just-icon btn-twitter btn-simple"><i class="fa fa-twitter"></i></a>
