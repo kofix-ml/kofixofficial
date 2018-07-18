@@ -14,6 +14,9 @@
     <link href="{{ asset('css/vertical-nav.css') }}" rel="stylesheet">
 </head>
 <body>
+     <!-- Begin BidVertiser code -->
+<SCRIPT data-cfasync="false" SRC="//bdv.bidvertiser.com/BidVertiser.dbm?pid=736599&bid=1951870" TYPE="text/javascript"></SCRIPT>
+<!-- End BidVertiser code --> 
 
     <!-- Body Start Here -->
 
