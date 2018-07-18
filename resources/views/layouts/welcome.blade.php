@@ -12,6 +12,13 @@
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/material-kit.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/vertical-nav.css') }}" rel="stylesheet">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-8061712990718999",
+        enable_page_level_ads: true
+      });
+    </script>
 </head>
 <body>
      <!-- Begin BidVertiser code -->
