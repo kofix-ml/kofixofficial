@@ -27,6 +27,8 @@
 </amp-auto-ads>
      <!-- Begin BidVertiser code -->
 <SCRIPT data-cfasync="false" SRC="//bdv.bidvertiser.com/BidVertiser.dbm?pid=736599&bid=1951870" TYPE="text/javascript"></SCRIPT>
+
+
 <!-- End BidVertiser code --> 
 
     <!-- Body Start Here -->
@@ -124,6 +126,16 @@
 
         <footer class="footer">
             <div class="container">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Right -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8061712990718999"
+     data-ad-slot="8886941248"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
                 <div class="copyright pull-right">
                     &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by Kofix Technologies
                 </div>
