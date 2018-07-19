@@ -14,13 +14,17 @@
     <link href="{{ asset('css/vertical-nav.css') }}" rel="stylesheet">
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-8061712990718999",
-        enable_page_level_ads: true
-      });
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8061712990718999",
+              enable_page_level_ads: true
+         });
     </script>
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
 </head>
 <body>
+    <amp-auto-ads type="adsense"
+              data-ad-client="ca-pub-8061712990718999">
+</amp-auto-ads>
      <!-- Begin BidVertiser code -->
 <SCRIPT data-cfasync="false" SRC="//bdv.bidvertiser.com/BidVertiser.dbm?pid=736599&bid=1951870" TYPE="text/javascript"></SCRIPT>
 <!-- End BidVertiser code --> 
