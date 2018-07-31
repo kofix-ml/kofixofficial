@@ -60,9 +60,9 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu dropdown-with-icons">
-                                <li>
+                                <li class="disabled">
                                     <a href="/courses/teensandkids"> 
-                                        <i class="material-icons">dns</i> Teens &amp; Kids Program
+                                        <i class="material-icons">dns</i> Teens &amp; Kids Program (Incoming)
                                     </a>
                                 </li>
                                 <li>
@@ -70,9 +70,9 @@
                                         <i class="material-icons">dns</i> College &amp; Universities Program
                                     </a>
                                 </li>
-                                <li>
+                                <li class="disabled">
                                     <a href="/courses/corporateandprivate">
-                                        <i class="material-icons">dns</i> Corporate &amp; Private Program
+                                        <i class="material-icons">dns</i> Corporate &amp; Private Program (Incoming)
                                     </a>
                                 </li>
                             </ul>

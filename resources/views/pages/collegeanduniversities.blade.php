@@ -16,140 +16,51 @@
                     </div>
                     <br>
                     <div class="row">
+                            @foreach($modules as $module)
+                            @if($module->ready)
                             <div class="col-md-6">
-                                <div class="card card-background" style="background-image: url('/laravel2.png')">
+                                <div class="card card-background" style="background-image: url('/{{$module->header}}')">
                                     <div class="card-content">
-                                        <h6 class="category text-info">Basic</h6>
-                                        <h3 class="card-title">MVC Concept Laravel</h3>
+                                        <h6 class="category text-info">{{$module->level}}</h6>
+                                        <h3 class="card-title">{{$module->title}}</h3>
                                         <p class="card-description">
-                                            Love beautiful code? We do too. The PHP Framework For Web Artisans.
+                                            {{$module->description}}
                                         </p>
-                                        <a href="#pablo" class="btn btn-danger btn-round">
+                                        <a href="/courses/collegeanduniversities/{{$module->id}}/read" class="btn btn-danger btn-round">
                                             <i class="material-icons">subject</i> Read Article
                                         <div class="ripple-container"></div></a>
                                     </div>
                                 </div>
                             </div>
-
+                            @endif
+                            @endforeach
+                    </div>
+                    <br><br><br>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <h5 class="description">Incoming Courses...</h5>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                            @foreach($modules as $module)
+                            @if(!$module->ready)
                             <div class="col-md-6">
-                                <div class="card card-background" style="background-image: url('/nazmi_starbuck.jpg')">
+                                <div class="card card-background" style="background-image: url('/{{$module->header}}')">
                                     <div class="card-content">
-                                        <h6 class="category text-info">Advanced</h6>
-                                        <h3 class="card-title">Native Android</h3>
+                                        <h6 class="category text-info">{{$module->level}}</h6>
+                                        <h3 class="card-title">{{$module->title}}</h3>
                                         <p class="card-description">
-                                            Code and Iterate faster than ever.
+                                            {{$module->description}}
                                         </p>
-                                        <a href="#pablo" class="btn btn-danger btn-round">
+                                        <a href="/courses/collegeanduniversities/{{$module->id}}/read" class="btn btn-danger btn-round">
                                             <i class="material-icons">subject</i> Read Article
                                         <div class="ripple-container"></div></a>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="col-md-6">
-                                <div class="card card-background" style="background-image: url('/nodejs.jpg')">
-                                    <div class="card-content">
-                                        <h6 class="category text-info">Intermidiate</h6>
-                                        <h3 class="card-title">Deeper into laravel</h3>
-                                        <p class="card-description">
-                                            Learning everything that works behind is not easy, but lets atleast know a little bit.
-                                        </p>
-                                        <a href="#pablo" class="btn btn-danger btn-round">
-                                            <i class="material-icons">subject</i> Read Article
-                                        <div class="ripple-container"></div></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="card card-background" style="background-image: url('/nazmi_starbuck.jpg')">
-                                    <div class="card-content">
-                                        <h6 class="category text-info">Advanced</h6>
-                                        <h3 class="card-title">Laravel like a pro</h3>
-                                        <p class="card-description">
-                                            Ever wonder what else can be done with laravel? Lets explore more, we take you there..
-                                        </p>
-                                        <a href="#pablo" class="btn btn-danger btn-round">
-                                            <i class="material-icons">subject</i> Read Article
-                                        <div class="ripple-container"></div></a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <div class="card card-background" style="background-image: url('/cake.jpg')">
-                                    <div class="card-content">
-                                        <h6 class="category text-info">Desert</h6>
-                                        <h3 class="card-title">Python with OpenCV</h3>
-                                        <p class="card-description">
-                                            Wanna make some facial recognition , or maybe simple image identification using your camera? Come & join us.
-                                        </p>
-                                        <a href="#pablo" class="btn btn-danger btn-round">
-                                            <i class="material-icons">subject</i> Read Article
-                                        <div class="ripple-container"></div></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="card card-background" style="background-image: url('/nazmi_starbuck.jpg')">
-                                    <div class="card-content">
-                                        <h6 class="category text-info">Advanced</h6>
-                                        <h3 class="card-title">Ionic App</h3>
-                                        <p class="card-description">
-                                            Love ionic? We do too..
-                                        </p>
-                                        <a href="#pablo" class="btn btn-danger btn-round">
-                                            <i class="material-icons">subject</i> Read Article
-                                        <div class="ripple-container"></div></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="card card-background" style="background-image: url('/cake.jpg')">
-                                    <div class="card-content">
-                                        <h6 class="category text-info">Desert</h6>
-                                        <h3 class="card-title">Big data & Machine Learning</h3>
-                                        <p class="card-description">
-                                            Interest in analytics? Come and join us.
-                                        </p>
-                                        <a href="#pablo" class="btn btn-danger btn-round">
-                                            <i class="material-icons">subject</i> Read Article
-                                        <div class="ripple-container"></div></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="card card-background" style="background-image: url('/python.jpg')">
-                                    <div class="card-content">
-                                        <h6 class="category text-info">Basic</h6>
-                                        <h3 class="card-title">Python</h3>
-                                        <p class="card-description">
-                                            Python is everything. 
-                                        </p>
-                                        <a href="#pablo" class="btn btn-danger btn-round">
-                                            <i class="material-icons">subject</i> Read Article
-                                        <div class="ripple-container"></div></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="card card-background" style="background-image: url('/sprint.jpg')">
-                                    <div class="card-content">
-                                        <h6 class="category text-info">Sprint-Course</h6>
-                                        <h3 class="card-title">Web Dev (zero-hero)</h3>
-                                        <p class="card-description">
-                                            Dont know where to get started? This is your starting point. Lets begin..
-                                        </p>
-                                        <a href="#pablo" class="btn btn-danger btn-round">
-                                            <i class="material-icons">subject</i> Read Article
-                                        <div class="ripple-container"></div></a>
-                                    </div>
-                                </div>
-                            </div>
+                            @endif
+                            @endforeach
                     </div>
                 </div>
             </div>
