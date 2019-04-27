@@ -64,7 +64,7 @@ class ModuleController extends Controller
      * @param  \App\Module  $module
      * @return \Illuminate\Http\Response
      */
-    public function show(Module $module)
+    public function show($category, Module $module)
     {
         
         $module->latesttentatives = json_decode($module->tentative, true);
