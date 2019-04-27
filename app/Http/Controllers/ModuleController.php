@@ -14,25 +14,23 @@ class ModuleController extends Controller
      */
     public function index($category)
     {
-        $modules = Module::all();
         switch ($category) {
             case 'teensandkids':
                 # code...
-                $modules = $modules->where('category',1)->get();
+                $modules = Module::where('category',1)->get();
                 break;
             case 'collegeanduniversities':
                 # code...
-                dd($category);
-                $modules = $modules->where('category',2)->get();
+                $modules = Module::where('category',2)->get();
                 break;
             case 'corporateandprivate':
                 # code...
-                $modules = $modules->where('category',3)->get();
+                $modules = Module::where('category',3)->get();
                 break;
             
             default:
                 # code...
-                $modules = $modules->where('category',2)->get();
+                $modules = Module::where('category',2)->get();
                 break;
         }
         return view('pages.collegeanduniversities',compact('modules'));
