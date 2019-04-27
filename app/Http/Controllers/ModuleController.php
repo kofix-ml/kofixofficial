@@ -33,7 +33,7 @@ class ModuleController extends Controller
                 $modules = Module::where('category',2)->get();
                 break;
         }
-        return view('pages.collegeanduniversities',compact('modules'));
+        return view('pages.'.$category,compact('modules'));
     }
 
     /**
