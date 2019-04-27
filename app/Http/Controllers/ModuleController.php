@@ -22,6 +22,7 @@ class ModuleController extends Controller
                 break;
             case 'collegeanduniversities':
                 # code...
+                dd($category);
                 $modules = $modules->where('category',2)->get();
                 break;
             case 'corporateandprivate':
