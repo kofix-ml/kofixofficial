@@ -60,9 +60,9 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu dropdown-with-icons">
-                                <li class="disabled">
+                                <li>
                                     <a href="/courses/teensandkids"> 
-                                        <i class="material-icons">dns</i> Teens &amp; Kids Program (Incoming)
+                                        <i class="material-icons">dns</i> Teens &amp; Kids Program 
                                     </a>
                                 </li>
                                 <li>
