@@ -23,6 +23,7 @@ class CreateModulesTable extends Migration
             $table->string('syllabus')->nullable();
             $table->string('header')->nullable();
             $table->string('ready')->default(0);
+            $table->integer('category')->default(2);
             $table->longText('tentative')->nullable();
             $table->timestamps();
         });

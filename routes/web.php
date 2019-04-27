@@ -17,29 +17,13 @@ Route::get('/', function () {
 
 # Train & Courses
 Route::prefix('/courses')->group(function () {
-    Route::prefix('/teensandkids')->group(function () {
-        Route::get('/', function () {
-		    return view('pages.teensandkids');
-		});
-		Route::get('/read', function () {
-			
-		});
-		Route::get('/register', function () {
-			
-		});
-    });
-    Route::prefix('/collegeanduniversities')->group(function () {
+    Route::prefix('/{category}')->group(function () {
 		Route::get('/', 'ModuleController@index');	
 		Route::prefix('/{module}')->group(function () {
 			Route::get('/read', 'ModuleController@show');	
 			Route::get('/register', function () {
 				
 			});
-		});
-    });
-    Route::prefix('/corporateandprivate')->group(function () {
-        Route::get('/', function () {
-		    return view('pages.corporateandprivate');
 		});
     });
 });

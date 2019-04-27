@@ -12,9 +12,28 @@ class ModuleController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($category)
     {
         $modules = Module::all();
+        switch ($category) {
+            case 'teensandkids':
+                # code...
+                $modules = $modules->where('category',1)->get();
+                break;
+            case 'collegeanduniversities':
+                # code...
+                $modules = $modules->where('category',2)->get();
+                break;
+            case 'corporateandprivate':
+                # code...
+                $modules = $modules->where('category',3)->get();
+                break;
+            
+            default:
+                # code...
+                $modules = $modules->where('category',2)->get();
+                break;
+        }
         return view('pages.collegeanduniversities',compact('modules'));
     }
 
